@@ -1,0 +1,156 @@
+body {
+    font-family :'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0px;
+    min-height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.cover {
+    flex: auto;
+    background-color: #1f2937;
+    padding: 0px 100px 50px;
+}
+
+footer {
+    flex: 1 1 auto;
+    background-color: #1f2937;
+    color: #f9faf8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    padding: 0 50px;
+}
+
+.cover-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.cover-header h2 {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.cover-header .header-links {
+    list-style-type: none;
+    margin-left: auto;
+    display: flex;
+    gap: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: #e5e7e8;
+    font-size: 18px;
+}
+
+.cover-bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.cover-bottom-right {
+    width: 500px;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    margin-left: auto;
+    border: none;
+}
+
+.cover-bottom-left h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+    margin: 0px;
+}
+
+.cover-bottom-left p {
+    font-size: 18px;
+    color: #e5e7eb;
+    margin: 0px;
+}
+
+button {
+    background-color: #3882f6;
+    border-radius: 8px;
+    margin: 10px 0px;
+    color: white;
+    border: #e5e7eb outset 3px;
+}
+
+.main-top {
+    padding: 0px 50px;
+    margin: 25px 0px;
+}
+
+.main-top h1 {
+    text-align: center;
+}
+
+.cards-container {
+    padding: 10px 150px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    text-align: center;
+}
+
+.card {
+    flex: 1 1 0;
+}
+
+.card img {
+    height: 100px;
+    width: 100px;
+    border: #3882f6 solid 2px;
+    border-radius: 10px;
+}
+
+
+.main-center {
+    background-color: #e5e7eb;
+    margin: 25px 0;
+    padding: 100px 200px;
+    font-style: italic;
+}
+
+.quote-author {
+    font-style: normal;
+    text-align: right;
+    font-weight: bold;
+}
+
+
+.main-bottom {
+    max-width: 600px;
+    margin: 50px 100px;
+    background-color: #3882f6;
+    padding: 20px 50px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-self: center;
+    gap: 20px;
+}
+
+.bottom-left {
+    margin: 0px;
+    color: #e5e7e8;
+    align-self: center;
+}
+
+.bottom-left h3, 
+.bottom-left p {
+    margin: 0;
+}
